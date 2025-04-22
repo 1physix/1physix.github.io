@@ -3,10 +3,17 @@ html {
 }
 
 
-body h2{
-    text-align: center;
-}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
 
-body p{
-    text-align: center;
+    width: 90vw;
+    max-width: 600px;
+
+    height: 50vh;
+    padding: 1rem;
+
 }
