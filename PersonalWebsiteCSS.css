@@ -5,15 +5,12 @@ html {
 
 .main {
     display: flex;
+    position: fixed;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: auto;
-
-    width: 90vw;
-    max-width: 600px;
-
-    height: 50vh;
-    padding: 1rem;
+    height: 20vh;
+    width: 75vw;
 
 }
