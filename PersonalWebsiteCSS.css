@@ -1,16 +1,17 @@
 html {
-    background-color: #cff5fc;
+    background-color: #bcf3fd;
 }
 
+@font-face {
+    font-family: "LemonMilkRegular";
+    src: url("WebFonts/LEMONMILK/LEMONMILK-Regular.otf")
+}
 
-.main {
-    display: flex;
-    position: fixed;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow: auto;
-    height: 20vh;
-    width: 75vw;
-
+.text {
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    width: 90vw;
+    font-size: large;
+    font-family: LemonMilkRegular;
 }
