@@ -1,5 +1,6 @@
 html {
-    background-color: #bcf3fd;
+    background-color: #000000;
+    /*#bcf3fd*/
 }
 
 @font-face {
@@ -14,4 +15,17 @@ html {
     width: 99vw;
     font-size: large;
     font-family: RobotoMedium;
+    color: white;
+}
+
+#homepagelogo{
+    filter: invert(1);
+}
+
+.logoimage img{
+    transition: all 0.2s ease-in;
+}
+
+.logoimage img:hover{
+    filter: brightness();
 }
