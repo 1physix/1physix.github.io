@@ -8,10 +8,6 @@ html {
     src: url("WebFonts/roboto/Roboto-Medium.ttf")
 }
 
-body {
-    position: static;
-
-}
 
 /*Text Class*/
 .text {
@@ -29,6 +25,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-top: 20vh;
 }
 
 
